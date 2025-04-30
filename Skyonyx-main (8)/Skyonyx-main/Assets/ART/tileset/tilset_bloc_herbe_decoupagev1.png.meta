@@ -1,0 +1,1037 @@
+fileFormatVersion: 2
+guid: a594f1b45ad8d064482cfa7f3cb5c26b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3531515312514592875
+    second: tilset_bloc_herbe_decoupagev1_0
+  - first:
+      213: 8362739935751496427
+    second: tilset_bloc_herbe_decoupagev1_1
+  - first:
+      213: 5737832023792345433
+    second: tilset_bloc_herbe_decoupagev1_2
+  - first:
+      213: -653464214873356823
+    second: tilset_bloc_herbe_decoupagev1_3
+  - first:
+      213: -3682111864868681967
+    second: tilset_bloc_herbe_decoupagev1_4
+  - first:
+      213: 476306349222440547
+    second: tilset_bloc_herbe_decoupagev1_5
+  - first:
+      213: -5662038900133835311
+    second: tilset_bloc_herbe_decoupagev1_6
+  - first:
+      213: 5007901637426499906
+    second: tilset_bloc_herbe_decoupagev1_7
+  - first:
+      213: -1874576442726867264
+    second: tilset_bloc_herbe_decoupagev1_8
+  - first:
+      213: 1584143550947416249
+    second: tilset_bloc_herbe_decoupagev1_9
+  - first:
+      213: 4183858114013602964
+    second: tilset_bloc_herbe_decoupagev1_10
+  - first:
+      213: 1857893748780248512
+    second: tilset_bloc_herbe_decoupagev1_11
+  - first:
+      213: 8323794742166635973
+    second: tilset_bloc_herbe_decoupagev1_12
+  - first:
+      213: 1651061665256219778
+    second: tilset_bloc_herbe_decoupagev1_13
+  - first:
+      213: -515463863695269574
+    second: tilset_bloc_herbe_decoupagev1_14
+  - first:
+      213: 6023378650212151121
+    second: tilset_bloc_herbe_decoupagev1_15
+  - first:
+      213: 3800178269665472262
+    second: tilset_bloc_herbe_decoupagev1_16
+  - first:
+      213: 553081118990015470
+    second: tilset_bloc_herbe_decoupagev1_17
+  - first:
+      213: 8270565243782953972
+    second: tilset_bloc_herbe_decoupagev1_18
+  - first:
+      213: -8814832362367425932
+    second: tilset_bloc_herbe_decoupagev1_19
+  - first:
+      213: 6735774770848112909
+    second: tilset_bloc_herbe_decoupagev1_20
+  - first:
+      213: -6663550443595371027
+    second: tilset_bloc_herbe_decoupagev1_21
+  - first:
+      213: 3228432020124612216
+    second: tilset_bloc_herbe_decoupagev1_22
+  - first:
+      213: 1465577350752623017
+    second: tilset_bloc_herbe_decoupagev1_23
+  - first:
+      213: 2036628008972589456
+    second: tilset_bloc_herbe_decoupagev1_24
+  - first:
+      213: -5102031131505057687
+    second: tilset_bloc_herbe_decoupagev1_25
+  - first:
+      213: 6988834991239261790
+    second: tilset_bloc_herbe_decoupagev1_26
+  - first:
+      213: -5801554646024328963
+    second: tilset_bloc_herbe_decoupagev1_27
+  - first:
+      213: -280322273610122987
+    second: tilset_bloc_herbe_decoupagev1_28
+  - first:
+      213: 4085951712679598084
+    second: tilset_bloc_herbe_decoupagev1_29
+  - first:
+      213: -8738717356956749456
+    second: tilset_bloc_herbe_decoupagev1_30
+  - first:
+      213: 1780184279072307616
+    second: tilset_bloc_herbe_decoupagev1_31
+  - first:
+      213: -1197207404675642999
+    second: tilset_bloc_herbe_decoupagev1_32
+  - first:
+      213: 106928017736682073
+    second: tilset_bloc_herbe_decoupagev1_33
+  - first:
+      213: 2044115540997096861
+    second: tilset_bloc_herbe_decoupagev1_34
+  - first:
+      213: -3280931347491235638
+    second: tilset_bloc_herbe_decoupagev1_35
+  - first:
+      213: 1100692547485607930
+    second: tilset_bloc_herbe_decoupagev1_36
+  - first:
+      213: 8978155948556586561
+    second: tilset_bloc_herbe_decoupagev1_37
+  - first:
+      213: -7573188515267393124
+    second: tilset_bloc_herbe_decoupagev1_38
+  - first:
+      213: -4319278413736182411
+    second: tilset_bloc_herbe_decoupagev1_39
+  - first:
+      213: 4995536512816601252
+    second: tilset_bloc_herbe_decoupagev1_40
+  - first:
+      213: 1829122719309727166
+    second: tilset_bloc_herbe_decoupagev1_41
+  - first:
+      213: -8780027809487387744
+    second: tilset_bloc_herbe_decoupagev1_42
+  - first:
+      213: -9024503905170634004
+    second: tilset_bloc_herbe_decoupagev1_43
+  - first:
+      213: 2079063385821070613
+    second: tilset_bloc_herbe_decoupagev1_44
+  - first:
+      213: -8366920057169580806
+    second: tilset_bloc_herbe_decoupagev1_45
+  - first:
+      213: 3477749008316256982
+    second: tilset_bloc_herbe_decoupagev1_46
+  - first:
+      213: -3591863085558642741
+    second: tilset_bloc_herbe_decoupagev1_47
+  - first:
+      213: 1493080819184105565
+    second: tilset_bloc_herbe_decoupagev1_48
+  - first:
+      213: -6885188796891510902
+    second: tilset_bloc_herbe_decoupagev1_49
+  - first:
+      213: -360498383784952224
+    second: tilset_bloc_herbe_decoupagev1_50
+  - first:
+      213: -9171409246992753242
+    second: tilset_bloc_herbe_decoupagev1_51
+  - first:
+      213: 6877122071640541058
+    second: tilset_bloc_herbe_decoupagev1_52
+  - first:
+      213: 403504610306518053
+    second: tilset_bloc_herbe_decoupagev1_53
+  - first:
+      213: 2237996840302925645
+    second: tilset_bloc_herbe_decoupagev1_54
+  - first:
+      213: 8992039688295192945
+    second: tilset_bloc_herbe_decoupagev1_55
+  - first:
+      213: 1295467471298738345
+    second: tilset_bloc_herbe_decoupagev1_56
+  - first:
+      213: 3810520909244202566
+    second: tilset_bloc_herbe_decoupagev1_57
+  - first:
+      213: -4591011510568557274
+    second: tilset_bloc_herbe_decoupagev1_58
+  - first:
+      213: 1448133474353007214
+    second: tilset_bloc_herbe_decoupagev1_59
+  - first:
+      213: -2624393365311190806
+    second: tilset_bloc_herbe_decoupagev1_60
+  - first:
+      213: -7141629872127830579
+    second: tilset_bloc_herbe_decoupagev1_61
+  - first:
+      213: 8898926156965958639
+    second: tilset_bloc_herbe_decoupagev1_62
+  - first:
+      213: -3391707471805159307
+    second: tilset_bloc_herbe_decoupagev1_63
+  - first:
+      213: -5086295119043337322
+    second: tilset_bloc_herbe_decoupagev1_64
+  - first:
+      213: -2441481566972815492
+    second: tilset_bloc_herbe_decoupagev1_65
+  - first:
+      213: -1421483123953044461
+    second: tilset_bloc_herbe_decoupagev1_66
+  - first:
+      213: 4186855565636868901
+    second: tilset_bloc_herbe_decoupagev1_67
+  - first:
+      213: -3863467905072002897
+    second: tilset_bloc_herbe_decoupagev1_68
+  - first:
+      213: -1029992990131854480
+    second: tilset_bloc_herbe_decoupagev1_69
+  - first:
+      213: 1800135784717697884
+    second: tilset_bloc_herbe_decoupagev1_70
+  - first:
+      213: 632947939399911646
+    second: tilset_bloc_herbe_decoupagev1_71
+  - first:
+      213: -7514988117707068015
+    second: tilset_bloc_herbe_decoupagev1_72
+  - first:
+      213: 7155910071713244676
+    second: tilset_bloc_herbe_decoupagev1_73
+  - first:
+      213: 2971256528379767367
+    second: tilset_bloc_herbe_decoupagev1_74
+  - first:
+      213: -3054582137651740975
+    second: tilset_bloc_herbe_decoupagev1_75
+  - first:
+      213: -3740427187495099986
+    second: tilset_bloc_herbe_decoupagev1_76
+  - first:
+      213: -4545646242745746945
+    second: tilset_bloc_herbe_decoupagev1_77
+  - first:
+      213: -2770507869095379087
+    second: tilset_bloc_herbe_decoupagev1_78
+  - first:
+      213: -4032396428389444808
+    second: tilset_bloc_herbe_decoupagev1_79
+  - first:
+      213: -2391177390506406896
+    second: tilset_bloc_herbe_decoupagev1_80
+  - first:
+      213: -703630918615305722
+    second: tilset_bloc_herbe_decoupagev1_81
+  - first:
+      213: -7493324444713779687
+    second: tilset_bloc_herbe_decoupagev1_82
+  - first:
+      213: -7901010502630044556
+    second: tilset_bloc_herbe_decoupagev1_83
+  - first:
+      213: -4408072203677473063
+    second: tilset_bloc_herbe_decoupagev1_84
+  - first:
+      213: 255583566046959018
+    second: tilset_bloc_herbe_decoupagev1_85
+  - first:
+      213: -6578039660419697510
+    second: tilset_bloc_herbe_decoupagev1_86
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1713
+        width: 471
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284acdb36dfb9e610800000000000000
+      internalID: 1651061665256219778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_15
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1678
+        width: 451
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f219918f6579350800000000000000
+      internalID: 6023378650212151121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_18
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1691
+        width: 256
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbff571543f6c270800000000000000
+      internalID: 8270565243782953972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_21
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1533
+        width: 266
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dede9923d205683a0800000000000000
+      internalID: -6663550443595371027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_22
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 1584
+        width: 111
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876360d31d1bdcc20800000000000000
+      internalID: 3228432020124612216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_25
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 1645
+        width: 521
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96028a5b7b1f139b0800000000000000
+      internalID: -5102031131505057687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_33
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1095
+        width: 426
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a4bb13772eb7100800000000000000
+      internalID: 106928017736682073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_34
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1280
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95ccfc11482e5c10800000000000000
+      internalID: 2044115540997096861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_35
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1078
+        width: 136
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac85754925ac772d0800000000000000
+      internalID: -3280931347491235638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_36
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 1068
+        width: 434
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7accb4a02764f00800000000000000
+      internalID: 1100692547485607930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_37
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1108
+        width: 100
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e86c35441d89c70800000000000000
+      internalID: 8978155948556586561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_39
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 544
+        width: 339
+        height: 706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dfd3fca27de04c0800000000000000
+      internalID: -4319278413736182411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_40
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1151
+        width: 376
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a85decadf5b35540800000000000000
+      internalID: 4995536512816601252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_46
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 464
+        width: 85
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d258a21c42734030800000000000000
+      internalID: 3477749008316256982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_47
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 474
+        width: 78
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7407fdd83272ec0800000000000000
+      internalID: -3591863085558642741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_50
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 401
+        width: 547
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e356441a04ffaf0800000000000000
+      internalID: -360498383784952224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_54
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 620
+        width: 98
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47d3b2d446fe0f10800000000000000
+      internalID: 2237996840302925645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_56
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 661
+        width: 91
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8b5dc2dcc6af110800000000000000
+      internalID: 1295467471298738345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_57
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 651
+        width: 180
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ef2b4f390b1e430800000000000000
+      internalID: 3810520909244202566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_58
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 648
+        width: 123
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625e4d8fa537940c0800000000000000
+      internalID: -4591011510568557274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 407
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314f09e41a0e54ce0800000000000000
+      internalID: -1421483123953044461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_67
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 119
+        width: 467
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b17ab34f2ba1a30800000000000000
+      internalID: 4186855565636868901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_71
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 134
+        width: 234
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed84f312ccea8c800800000000000000
+      internalID: 632947939399911646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_74
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 111
+        width: 307
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ae2a6f1160c3920800000000000000
+      internalID: 2971256528379767367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_75
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 123
+        width: 111
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1deb30ccab1fb95d0800000000000000
+      internalID: -3054582137651740975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilset_bloc_herbe_decoupagev1_77
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 104
+        width: 362
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9fc8a73de9ae0c0800000000000000
+      internalID: -4545646242745746945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 032001a332f98a24a8d9848944fc8a59
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tilset_bloc_herbe_decoupagev1_0: -3531515312514592875
+      tilset_bloc_herbe_decoupagev1_1: 8362739935751496427
+      tilset_bloc_herbe_decoupagev1_10: 4183858114013602964
+      tilset_bloc_herbe_decoupagev1_11: 1857893748780248512
+      tilset_bloc_herbe_decoupagev1_12: 8323794742166635973
+      tilset_bloc_herbe_decoupagev1_13: 1651061665256219778
+      tilset_bloc_herbe_decoupagev1_14: -515463863695269574
+      tilset_bloc_herbe_decoupagev1_15: 6023378650212151121
+      tilset_bloc_herbe_decoupagev1_16: 3800178269665472262
+      tilset_bloc_herbe_decoupagev1_17: 553081118990015470
+      tilset_bloc_herbe_decoupagev1_18: 8270565243782953972
+      tilset_bloc_herbe_decoupagev1_19: -8814832362367425932
+      tilset_bloc_herbe_decoupagev1_2: 5737832023792345433
+      tilset_bloc_herbe_decoupagev1_20: 6735774770848112909
+      tilset_bloc_herbe_decoupagev1_21: -6663550443595371027
+      tilset_bloc_herbe_decoupagev1_22: 3228432020124612216
+      tilset_bloc_herbe_decoupagev1_23: 1465577350752623017
+      tilset_bloc_herbe_decoupagev1_24: 2036628008972589456
+      tilset_bloc_herbe_decoupagev1_25: -5102031131505057687
+      tilset_bloc_herbe_decoupagev1_26: 6988834991239261790
+      tilset_bloc_herbe_decoupagev1_27: -5801554646024328963
+      tilset_bloc_herbe_decoupagev1_28: -280322273610122987
+      tilset_bloc_herbe_decoupagev1_29: 4085951712679598084
+      tilset_bloc_herbe_decoupagev1_3: -653464214873356823
+      tilset_bloc_herbe_decoupagev1_30: -8738717356956749456
+      tilset_bloc_herbe_decoupagev1_31: 1780184279072307616
+      tilset_bloc_herbe_decoupagev1_32: -1197207404675642999
+      tilset_bloc_herbe_decoupagev1_33: 106928017736682073
+      tilset_bloc_herbe_decoupagev1_34: 2044115540997096861
+      tilset_bloc_herbe_decoupagev1_35: -3280931347491235638
+      tilset_bloc_herbe_decoupagev1_36: 1100692547485607930
+      tilset_bloc_herbe_decoupagev1_37: 8978155948556586561
+      tilset_bloc_herbe_decoupagev1_38: -7573188515267393124
+      tilset_bloc_herbe_decoupagev1_39: -4319278413736182411
+      tilset_bloc_herbe_decoupagev1_4: -3682111864868681967
+      tilset_bloc_herbe_decoupagev1_40: 4995536512816601252
+      tilset_bloc_herbe_decoupagev1_41: 1829122719309727166
+      tilset_bloc_herbe_decoupagev1_42: -8780027809487387744
+      tilset_bloc_herbe_decoupagev1_43: -9024503905170634004
+      tilset_bloc_herbe_decoupagev1_44: 2079063385821070613
+      tilset_bloc_herbe_decoupagev1_45: -8366920057169580806
+      tilset_bloc_herbe_decoupagev1_46: 3477749008316256982
+      tilset_bloc_herbe_decoupagev1_47: -3591863085558642741
+      tilset_bloc_herbe_decoupagev1_48: 1493080819184105565
+      tilset_bloc_herbe_decoupagev1_49: -6885188796891510902
+      tilset_bloc_herbe_decoupagev1_5: 476306349222440547
+      tilset_bloc_herbe_decoupagev1_50: -360498383784952224
+      tilset_bloc_herbe_decoupagev1_51: -9171409246992753242
+      tilset_bloc_herbe_decoupagev1_52: 6877122071640541058
+      tilset_bloc_herbe_decoupagev1_53: 403504610306518053
+      tilset_bloc_herbe_decoupagev1_54: 2237996840302925645
+      tilset_bloc_herbe_decoupagev1_55: 8992039688295192945
+      tilset_bloc_herbe_decoupagev1_56: 1295467471298738345
+      tilset_bloc_herbe_decoupagev1_57: 3810520909244202566
+      tilset_bloc_herbe_decoupagev1_58: -4591011510568557274
+      tilset_bloc_herbe_decoupagev1_59: 1448133474353007214
+      tilset_bloc_herbe_decoupagev1_6: -5662038900133835311
+      tilset_bloc_herbe_decoupagev1_60: -2624393365311190806
+      tilset_bloc_herbe_decoupagev1_61: -7141629872127830579
+      tilset_bloc_herbe_decoupagev1_62: 8898926156965958639
+      tilset_bloc_herbe_decoupagev1_63: -3391707471805159307
+      tilset_bloc_herbe_decoupagev1_64: -5086295119043337322
+      tilset_bloc_herbe_decoupagev1_65: -2441481566972815492
+      tilset_bloc_herbe_decoupagev1_66: -1421483123953044461
+      tilset_bloc_herbe_decoupagev1_67: 4186855565636868901
+      tilset_bloc_herbe_decoupagev1_68: -3863467905072002897
+      tilset_bloc_herbe_decoupagev1_69: -1029992990131854480
+      tilset_bloc_herbe_decoupagev1_7: 5007901637426499906
+      tilset_bloc_herbe_decoupagev1_70: 1800135784717697884
+      tilset_bloc_herbe_decoupagev1_71: 632947939399911646
+      tilset_bloc_herbe_decoupagev1_72: -7514988117707068015
+      tilset_bloc_herbe_decoupagev1_73: 7155910071713244676
+      tilset_bloc_herbe_decoupagev1_74: 2971256528379767367
+      tilset_bloc_herbe_decoupagev1_75: -3054582137651740975
+      tilset_bloc_herbe_decoupagev1_76: -3740427187495099986
+      tilset_bloc_herbe_decoupagev1_77: -4545646242745746945
+      tilset_bloc_herbe_decoupagev1_78: -2770507869095379087
+      tilset_bloc_herbe_decoupagev1_79: -4032396428389444808
+      tilset_bloc_herbe_decoupagev1_8: -1874576442726867264
+      tilset_bloc_herbe_decoupagev1_80: -2391177390506406896
+      tilset_bloc_herbe_decoupagev1_81: -703630918615305722
+      tilset_bloc_herbe_decoupagev1_82: -7493324444713779687
+      tilset_bloc_herbe_decoupagev1_83: -7901010502630044556
+      tilset_bloc_herbe_decoupagev1_84: -4408072203677473063
+      tilset_bloc_herbe_decoupagev1_85: 255583566046959018
+      tilset_bloc_herbe_decoupagev1_86: -6578039660419697510
+      tilset_bloc_herbe_decoupagev1_9: 1584143550947416249
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
