@@ -151,9 +151,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1458257210}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 741, y: 148}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -219, y: -392}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119304799
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -63.797974, y: 0, z: -106.88269, w: -178.43414}
+  m_margin: {x: -63.797974, y: 0, z: -106.88269, w: -352.52127}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -371,11 +371,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 645978951236729458, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Quit
+      value: QuitGame
       objectReference: {fileID: 0}
     - target: {fileID: 645978951236729458, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MainMenu, Assembly-CSharp
+      value: GameManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 645978951236729458, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -475,7 +475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8999552789293437547, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
       propertyPath: m_Name
-      value: LVL2 (2)
+      value: Quit
       objectReference: {fileID: 0}
     - target: {fileID: 8999552789293437547, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
       propertyPath: m_TagString
@@ -508,13 +508,21 @@ PrefabInstance:
       value: Main Camera (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2072151077700212760, guid: b0ecce373d45d7a429af8acb69e1815b, type: 3}
+      propertyPath: Priority
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072151077700212760, guid: b0ecce373d45d7a429af8acb69e1815b, type: 3}
+      propertyPath: m_Volume
+      value: 0.107
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072151077700212760, guid: b0ecce373d45d7a429af8acb69e1815b, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: a95e56a0383404d4b92efe7e5d75f5f8, type: 3}
+      objectReference: {fileID: 8300000, guid: 6fc0d1125a15c9840823d9333d45f620, type: 3}
     - target: {fileID: 2072151077700212760, guid: b0ecce373d45d7a429af8acb69e1815b, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a95e56a0383404d4b92efe7e5d75f5f8, type: 3}
+      objectReference: {fileID: 8300000, guid: 6fc0d1125a15c9840823d9333d45f620, type: 3}
     - target: {fileID: 8701275142566667756, guid: b0ecce373d45d7a429af8acb69e1815b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -592,9 +600,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1458257210}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 741, y: 375}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -219, y: -165}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &958689304
@@ -756,6 +764,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2297077176578992841, guid: 5a3e05928710b7c44ac52607011ad0e7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1261854892}
+    - targetCorrespondingSourceObject: {fileID: 2297077176578992841, guid: 5a3e05928710b7c44ac52607011ad0e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1261854894}
   m_SourcePrefab: {fileID: 100100000, guid: 5a3e05928710b7c44ac52607011ad0e7, type: 3}
 --- !u!1 &1261854891 stripped
 GameObject:
@@ -771,10 +782,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 1261854891}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39e33adf39bdeee4395d0214be7bea92, type: 3}
+  m_Script: {fileID: 11500000, guid: e9f03986794539643866a962a79c50e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSceneName: Level 1
+  playButton: {fileID: 1574258603}
+  quitButton: {fileID: 1278654897}
+--- !u!114 &1261854894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261854891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf86c256ba05a24481e8f4eb0f071ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuSceneName: Menu
+--- !u!114 &1278654897 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 645978951236729458, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
+  m_PrefabInstance: {fileID: 300116112}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1458257209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -937,9 +973,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1458257210}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 741, y: 488}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -219, y: -52}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1539609774
@@ -1073,9 +1109,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1458257210}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -794, y: 485}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 166, y: -55}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1557968991
@@ -1182,6 +1218,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1455270310861934198, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
   m_PrefabInstance: {fileID: 5384939094995839075}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1574258603 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 645978951236729458, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
+  m_PrefabInstance: {fileID: 5384939094995839075}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1910767589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,11 +1334,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 645978951236729458, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
+      value: PlayGame
       objectReference: {fileID: 0}
     - target: {fileID: 645978951236729458, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MainMenu, Assembly-CSharp
+      value: GameManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 645978951236729458, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1391,7 +1438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8999552789293437547, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
       propertyPath: m_Name
-      value: LVL2
+      value: Start
       objectReference: {fileID: 0}
     - target: {fileID: 8999552789293437547, guid: 6c974f9d972518e44b3ff58c89a04741, type: 3}
       propertyPath: m_TagString
