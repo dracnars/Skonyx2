@@ -38,10 +38,7 @@ public class Move : MonoBehaviour
         groundCheck();
         checkWall();
         moveCheck();
-
-        if (grounded)
-            flipCheck();
-
+        flipCheck();
         animCheck();
         shadowUpdate();
 
@@ -114,21 +111,25 @@ public class Move : MonoBehaviour
         {
             velocity.x = Input.GetAxis("Horizontal") * stats.speed;
         }
+        if (velocity.y < 0)
+        {
+            velocity.x = Input.GetAxis("Horizontal") * stats.speed * 0.5f;
+        }
 
         if (Input.GetButtonDown("Jump"))
-        {
-            if (grounded)
             {
-                velocity.y = stats.jumpForce;
+                if (grounded)
+                {
+                    velocity.y = stats.jumpForce;
+                }
+                else if (wallSliding && Time.time > lastWallJumpTime + 0.4f)
+                {
+                    lastWallJumpTime = Time.time;
+                    velocity.y = stats.jumpForce;
+                    velocity.x = (touchingWallLeft || touchingWallLeftFeet || touchingWallLeftMid) ? stats.wallJumpForce : -stats.wallJumpForce;
+                    wallSliding = false;
+                }
             }
-            else if (wallSliding && Time.time > lastWallJumpTime + 0.4f)
-            {
-                lastWallJumpTime = Time.time;
-                velocity.y = stats.jumpForce;
-                velocity.x = (touchingWallLeft || touchingWallLeftFeet || touchingWallLeftMid) ? stats.wallJumpForce : -stats.wallJumpForce;
-                wallSliding = false;
-            }
-        }
 
         if (wallSliding && velocity.y < 0)
         {
