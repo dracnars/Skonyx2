@@ -7,4 +7,5 @@ public class PlayerStats : ScriptableObject
     public float jumpForce = 8f;
     public float wallJumpForce = 6f;
     public float maxFallSpeed = -20f;
+    public float acceleration = 1f;
 }

@@ -8,6 +8,7 @@ public class Move : MonoBehaviour
     private Rigidbody2D rb;
     private CapsuleCollider2D monColl;
     private bool grounded;
+    private bool headed;
     private float rayonDetection;
     private bool wallSliding;
     private float wallSlideSpeed;
@@ -21,6 +22,8 @@ public class Move : MonoBehaviour
     private float lastWallJumpTime;
     public Transform groundChecker;
     public LayerMask wallLayer;
+    public float startJump = 0f;
+    public bool jumpHeld = false;
 
     void Start()
     {
@@ -36,12 +39,10 @@ public class Move : MonoBehaviour
     void Update()
     {
         groundCheck();
+        headCheck();
         checkWall();
         moveCheck();
-
-        if (grounded)
-            flipCheck();
-
+        flipCheck();
         animCheck();
         shadowUpdate();
 
@@ -105,29 +106,68 @@ public class Move : MonoBehaviour
             }
         }
     }
+    void headCheck()
+    {
+        headed = false;
+        rayonDetection = monColl.size.x * 0.15f;
+
+        Collider2D[] colls = Physics2D.OverlapCircleAll((Vector2)transform.position + Vector2.up * (monColl.offset.y + 1.7f + rayonDetection * 0.8f - (monColl.size.y / 3)), rayonDetection);
+
+        foreach (Collider2D coll in colls)
+        {
+            if (coll != monColl && !coll.isTrigger && coll.gameObject.layer == LayerMask.NameToLayer("Ground"))
+            {
+                headed = true;
+                break;
+            }
+        }
+    }
 
     void moveCheck()
     {
         Vector2 velocity = rb.linearVelocity;
-
+        jumpHeld = Input.GetKey(KeyCode.Space);
         if (grounded)
         {
             velocity.x = Input.GetAxis("Horizontal") * stats.speed;
         }
-
+        if (velocity.y < 0)
+        {
+            velocity.x = Input.GetAxis("Horizontal") * stats.speed * 0.5f;
+        }
         if (Input.GetButtonDown("Jump"))
         {
-            if (grounded)
-            {
-                velocity.y = stats.jumpForce;
-            }
-            else if (wallSliding && Time.time > lastWallJumpTime + 0.4f)
+            if (wallSliding && Time.time > lastWallJumpTime + 0.4f)
             {
                 lastWallJumpTime = Time.time;
                 velocity.y = stats.jumpForce;
                 velocity.x = (touchingWallLeft || touchingWallLeftFeet || touchingWallLeftMid) ? stats.wallJumpForce : -stats.wallJumpForce;
                 wallSliding = false;
             }
+        }
+        if (jumpHeld)
+        {
+            if (grounded)
+            {
+                velocity.y += stats.acceleration * Time.deltaTime;
+                startJump = 1;
+            }
+            else if (headed)
+            {
+                startJump = 0;
+            }
+            else if (startJump > 0 && velocity.y <= stats.jumpForce)
+            {
+                velocity.y += stats.acceleration * Time.deltaTime;
+            }
+            else
+            {
+                startJump = 0;
+            }
+        }
+        else
+        {
+            startJump = 0;
         }
 
         if (wallSliding && velocity.y < 0)
@@ -186,7 +226,6 @@ public class Move : MonoBehaviour
 
         transform.position = shadowPosition;
 
-        // Corriger direction de déplacement après swap
         Vector2 velocity = rb.linearVelocity;
         rb.linearVelocity = new Vector2(-velocity.x, velocity.y);
 
@@ -217,5 +256,7 @@ public class Move : MonoBehaviour
 
         Vector2 circleCenter = (Vector2)transform.position + Vector2.up * (monColl.offset.y + rayonDetection * 0.8f - (monColl.size.y / 3));
         Gizmos.DrawWireSphere(circleCenter, monColl.size.x * 0.15f);
+        Vector2 circleCenterBis = (Vector2)transform.position + Vector2.up * (monColl.offset.y + 1.7f + rayonDetection * 0.8f - (monColl.size.y / 3));
+        Gizmos.DrawWireSphere(circleCenterBis, monColl.size.x * 0.15f);
     }
 }
